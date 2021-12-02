@@ -1,0 +1,50 @@
+.listitems{
+    background-color: #FFF;
+    color: #46529d;
+}
+.listitems p{
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+.listitems span{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    border: solid 1px #ccc;
+}
+.listitems span.title{
+    background: #3DA69D;
+    color: #FFF;
+    cursor: pointer;
+}
+.listitems span.icon{
+    color: red;
+    cursor: pointer;
+}
+.listitems span.name,
+form input[type=text]{
+    width: 60%;
+}
+.listitems span.age,
+form input[type=number]{
+    width: 30%;
+}
+.listitems span.action,
+form input[type=submit]{
+    width: 10%;
+}
+form input{
+    padding: 10px;
+    background: #ebebeb;
+    border: transparent;
+    border: solid 1px #ccc;
+}
+
+form input[type=submit]{
+    background: #3DA69D;
+    color: #FFF;
+    cursor: pointer;
+    border: solid 1px #2ebaee;
+}
