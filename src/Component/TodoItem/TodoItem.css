@@ -14,6 +14,12 @@
     font-size: 20px;
     border: solid 1px #ccc;
 }
+@media (max-width:991px) {
+    .listitems span{
+        font-size: 16px;
+        font-weight: bold;
+    }
+  }
 .listitems span.title{
     background: #3DA69D;
     color: #FFF;
@@ -25,15 +31,15 @@
 }
 .listitems span.name,
 form input[type=text]{
-    width: 60%;
+    width: 50%;
 }
 .listitems span.age,
 form input[type=number]{
-    width: 30%;
+    width: 25%;
 }
 .listitems span.action,
 form input[type=submit]{
-    width: 10%;
+    width: 25%;
 }
 form input{
     padding: 10px;
